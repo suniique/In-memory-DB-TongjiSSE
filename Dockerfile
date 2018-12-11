@@ -8,5 +8,5 @@ WORKDIR /home/Service
 COPY . /home/Service                   
 # RUN npm install                        # 使用npm 安装我们的app据需要的所有依赖
 
-EXPOSE 8888
-CMD [ "npm", "server" ]
+EXPOSE 18888
+CMD [ "npm", "start". "--", "-p", "18888" ]
