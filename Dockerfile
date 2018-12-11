@@ -9,4 +9,4 @@ COPY . /home/Service
 # RUN npm install                        # 使用npm 安装我们的app据需要的所有依赖
 
 EXPOSE 18888
-CMD [ "npm", "start". "--", "-p", "18888" ]
+CMD [ "npm", "run", "server", "--", "-p", "18888" ]
