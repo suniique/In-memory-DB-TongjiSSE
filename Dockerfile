@@ -6,7 +6,7 @@ WORKDIR /home/Service
 
 # Bundle app source
 COPY . /home/Service                   
-# RUN npm install                        # 使用npm 安装我们的app据需要的所有依赖
+RUN npm install
 
 EXPOSE 18888
 CMD [ "npm", "run", "serve" ]
