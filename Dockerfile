@@ -5,7 +5,10 @@ RUN mkdir -p /home/Service
 WORKDIR /home/Service                  
 
 # Bundle app source
-COPY . /home/Service                   
+COPY . /home/Service  
+RUN sudo npm cache clean -f
+RUN sudo npm install -g n
+RUN sudo n stable
 RUN npm install stable
 
 EXPOSE 18888
