@@ -6,9 +6,9 @@ WORKDIR /home/Service
 
 # Bundle app source
 COPY . /home/Service  
-RUN sudo npm cache clean -f
-RUN sudo npm install -g n
-RUN sudo n stable
+RUN npm cache clean -f
+RUN npm install -g n
+RUN n stable
 RUN npm install stable
 
 EXPOSE 18888
