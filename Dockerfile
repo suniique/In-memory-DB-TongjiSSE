@@ -6,7 +6,7 @@ WORKDIR /home/Service
 
 # Bundle app source
 COPY . /home/Service                   
-RUN npm install
+RUN npm install stable
 
 EXPOSE 18888
 CMD [ "npm", "run", "serve" ]
