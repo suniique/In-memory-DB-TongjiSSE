@@ -12,4 +12,4 @@ COPY . /home/Service
 RUN npm install --production
 
 EXPOSE 8086
-CMD [ "NODE_ENV=production", "npm", "run", "start" ]
+CMD [ "npm", "run", "start" ]
