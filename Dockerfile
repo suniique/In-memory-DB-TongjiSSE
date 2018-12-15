@@ -10,7 +10,7 @@ COPY . /home/Service
 # RUN npm install -g n
 # RUN n stable
 RUN npm install --production
-RUN npm build
+RUN npm run build
 
 EXPOSE 8086
 CMD [ "npm", "run", "serve" ]
