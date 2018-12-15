@@ -6,9 +6,7 @@ WORKDIR /home/Service
 
 # Bundle app source
 COPY . /home/Service  
-# RUN npm cache clean -f
-# RUN npm install -g n
-# RUN n stable
+RUN npm install http-server -g
 RUN npm install --production
 RUN npm run build
 
