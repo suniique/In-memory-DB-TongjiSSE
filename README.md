@@ -1,23 +1,28 @@
-# Deep playground
+# Vue Charts
 
-Deep playground is an interactive visualization of neural networks, written in
-TypeScript using d3.js. We use GitHub issues for tracking new requests and bugs.
-Your feedback is highly appreciated!
+> A tutorial on how to create beautiful charts with Vue wrappers.
 
-**If you'd like to contribute, be sure to review the [contribution guidelines](CONTRIBUTING.md).**
+## Requirements
 
-## Development
+* [Node.js](http://nodejs.org/)
+* [Vue.js](https://vuejs.org/)
+* [vue-cli](https://github.com/vuejs/vue-cli)
 
-To run the visualization locally, run:
-- `npm i` to install dependencies
-- `npm run build` to compile the app and place it in the `dist/` directory
-- `npm run serve` to serve from the `dist/` directory and open a page on your browser.
+## Installation Steps
 
-For a fast edit-refresh cycle when developing run `npm run serve-watch`.
-This will start an http server and automatically re-compile the TypeScript,
-HTML and CSS files whenever they change.
+1. Clone repo
+2. Run `npm install`
+3. Run `npm run dev`
+4. Visit http://localhost:8086/
 
-## For owners
-To push to production: `git subtree push --prefix dist origin gh-pages`.
+## License
 
-This is not an official Google product.
+The MIT License (MIT)
+
+Copyright (c) 2016 SitePoint
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
