@@ -9,7 +9,7 @@ COPY . /home/Service
 # RUN npm cache clean -f
 # RUN npm install -g n
 # RUN n stable
-RUN npm install stable
+RUN npm install --production
 
 EXPOSE 18888
-CMD [ "npm", "run", "start" ]
+CMD [ "NODE_ENV=production", "npm", "run", "start" ]
