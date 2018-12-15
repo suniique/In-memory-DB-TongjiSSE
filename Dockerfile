@@ -12,4 +12,4 @@ COPY . /home/Service
 RUN npm install stable
 
 EXPOSE 18888
-CMD [ "npm", "run", "serve" ]
+CMD [ "npm", "run", "start" ]
