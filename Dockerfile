@@ -11,5 +11,5 @@ COPY . /home/Service
 # RUN n stable
 RUN npm install --production
 
-EXPOSE 18888
+EXPOSE 8086
 CMD [ "NODE_ENV=production", "npm", "run", "start" ]
