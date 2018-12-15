@@ -8,7 +8,8 @@
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "serve": "http-server -o -c-1 dist/ -p 8086"
   },
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
